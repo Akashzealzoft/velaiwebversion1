@@ -1,0 +1,70 @@
+.mainTop {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+.section2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.section2 span {
+  font-size: 15px;
+  margin: 20px;
+  cursor: pointer;
+}
+.section3 {
+  margin-top: 25px;
+}
+.icons {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.icons1 {
+  margin-right: 20px;
+  cursor: pointer;
+  display: none;
+}
+.menu {
+  display: none;
+}
+.dragmenu {
+  display: flex;
+  flex-direction: column;
+  background-color: #0c2930;
+  color: #fff;
+  width: 15%;
+  height: 20%;
+  margin-left: auto;
+  padding: 20px;
+}
+.dragmenu span {
+  font-size: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+.crossicon {
+  margin-left: auto;
+}
+@media screen and (max-width: 600px) {
+  .icons {
+    display: none;
+  }
+  .section2 span {
+    display: none;
+  }
+  .icons1 {
+    display: block;
+  }
+  .menuvisible {
+    display: flex;
+    flex-direction: column;
+    background-color: #0c2930;
+    color: #fff;
+  }
+  .menuvisible span {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
